@@ -3,8 +3,7 @@
 ![telco 2](https://github.com/user-attachments/assets/851f1051-69a9-4b83-b621-29ea5552e510)
 
 # INTRODUCTION
-
-This analysis effectively identified the **primary drivers of customer churn** in the telecom dataset. The insights gathered emphasize the need for targeted retention strategies, implementing personalized service offerings, improving payment flexibility, and fostering long-term contracts can significantly reduce churn and enhance customer satisfaction.
+This analysis identified the key characteristics of high-risk churn customers in a telecom dataset, revealing specific patterns in demographics, service usage, and billing behavior. These insights emphasize the need for targeted retention strategies such as personalized service offerings, improved payment flexibility, and longer-term contracts which are all critical for reducing churn and boosting customer satisfaction.
 
 # CENTRAL INSIGHTS
 
@@ -15,12 +14,12 @@ Customers who are **female**, **non-senior**, **single**, **independent**, **on 
 1. Analyze churn distribution across demographics.
 2. Examine the relationship between churn and contract types, payment methods, tenure, and service usage.
 3. Identify key trends using visualizations.
-4. Design a dark-themed dashboard in Excel to display key insights visually.
-5. Incorporated interactive filters, Key Insights & Recommendations into the dashboard.
+4. Design a light-themed dashboard in Excel to display key insights visually.
+5. Incorporate interactive filters, key insights & recommendations into the dashboard.
 
 # TOOLS USED
 
-**Excel** – Data cleaning, analysis, and dashboard visualization
+**Excel** – Data cleaning, analysis, visualization and dashboard creation
 
 **GitHub**  – Project documentation and version control
 
@@ -28,7 +27,7 @@ Customers who are **female**, **non-senior**, **single**, **independent**, **on 
 
 **Data Cleaning & Preparation** – Formatting inconsistencies, craeting new calculated columns and ensuring data accuracy.
 
-**Exploratory Data Analysis (EDA)** – Identifying patterns, trends, and correlations in churn behavior.
+** Analysis ** – Identifying patterns, trends, and correlations in churn behavior.
 
 **Data Visualization** – Creating impactful charts and dashboards for effective storytelling.
 
@@ -36,11 +35,16 @@ Customers who are **female**, **non-senior**, **single**, **independent**, **on 
 
 **Dashboard Design** – Structuring data visualizations for clear communication of insights.
 
-# DATA SOURCE
+# ABOUT THE DATASET
 
 The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 It has 7044 columns and 21 rows. 
+The dataset consists of:
+
+21 columns
+7,044 rows
+Covers sales data from 2014 to 2017 The dataset includes details like Order Date, Ship Date, Customer Name, Product Category, Sales, Profit, Discount, Quantity, Order ID, Region and others
 
 # SUMMARY OF WORK DONE
 
@@ -71,7 +75,10 @@ It has 7044 columns and 21 rows.
 
 ![Screenshot 2025-03-13 141006](https://github.com/user-attachments/assets/bf392286-e895-43a7-930e-3907687905bf)
 
-## KEY INSIGHTS
+## FINDINGS
+
+![Screenshot 2025-04-22 135552](https://github.com/user-attachments/assets/693071b8-61cf-4c67-be28-1792623cc57f)
+
 
 - Females, Senior citizens & customers without partners and dependents are more likely to churn.
 
@@ -94,11 +101,6 @@ It has 7044 columns and 21 rows.
 - Offer tiered pricing plans or bundled discounts to prevent churn among high-paying customers.
 
 - Use personalized marketing & loyalty programs to retain senior citizens, independent customers, and those with high churn risk.
-  
-
-## Dashboard
-
-![Screenshot 2025-03-13 151727](https://github.com/user-attachments/assets/9dac945b-9eeb-4184-8b25-55952f6ba160)
 
 
 ![2025](https://github.com/user-attachments/assets/52c80e5a-7006-4267-9e77-faa7491d33d3)
