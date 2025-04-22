@@ -1,6 +1,6 @@
-# TELCO CUSTOMER CHURN ANALYSIS
+# Churn Risk Profiling for Smarter Retention in Telecom Customers
 
-![telco 2](https://github.com/user-attachments/assets/851f1051-69a9-4b83-b621-29ea5552e510)
+![TEL](https://github.com/user-attachments/assets/f68b4bf0-9e5d-4bf9-9630-e2db07092fc4)
 
 # INTRODUCTION
 This analysis identified the key characteristics of high-risk churn customers in a telecom dataset, revealing specific patterns in demographics, service usage, and billing behavior. These insights emphasize the need for targeted retention strategies such as personalized service offerings, improved payment flexibility, and longer-term contracts which are all critical for reducing churn and boosting customer satisfaction.
@@ -37,14 +37,10 @@ Customers who are **female**, **non-senior**, **single**, **independent**, **on 
 
 # ABOUT THE DATASET
 
-The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-
-It has 7044 columns and 21 rows. 
 The dataset consists of:
-
 21 columns
 7,044 rows
-Covers sales data from 2014 to 2017 The dataset includes details like Order Date, Ship Date, Customer Name, Product Category, Sales, Profit, Discount, Quantity, Order ID, Region and others
+Covers customer data and the dataset includes details like Customer ID, gender, age, tenure, dependent, partner and the services rendered by the telecommunication company. [Download here](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 # SUMMARY OF WORK DONE
 
@@ -72,8 +68,8 @@ Covers sales data from 2014 to 2017 The dataset includes details like Order Date
   ```excel
   (=COUNTIF(G107:O107, "Yes")
   ```
+![Screenshot 2025-04-22 140032](https://github.com/user-attachments/assets/2324df5e-c8e8-46c8-a97a-951e3350d3a8)
 
-![Screenshot 2025-03-13 141006](https://github.com/user-attachments/assets/bf392286-e895-43a7-930e-3907687905bf)
 
 ## FINDINGS
 
