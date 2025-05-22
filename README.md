@@ -45,35 +45,21 @@ Covers customer data and the dataset includes details like Customer ID, gender, 
 # SUMMARY OF WORK DONE
 
 ## Data Preprocessing
+
 - No duplicates
 - No missing values
 - Created new columns to derive additional insights
-   1.	Age Group (using the SeniorCitizen column)
-  ```excel
-     (=IF([@SeniorCitizen]=1, "Senior", "Other")
-  ```                                                
+   1.	Age Group (using the SeniorCitizen column)                                         
   2.	Marital Status (using the Partner column)
-  ```excel
-  (=IF([@Partner]="Yes", "With partner", "No partner")
-  ```
   3.	Household Type (using the dependents column)
-  ```excel
-  (=IF([@Dependents]="Yes", "Has Dependents", "Independent")
-  ```
   4.	Churned - This helps to change the column into a binomial format (using the Churn column)
-  ```excel
-  (=IF([@Churn]="Yes", 1,0)
-  ```
   5.	Service Count (using the Services column)
-  ```excel
-  (=COUNTIF(G107:O107, "Yes")
-  ```
 ![Screenshot 2025-04-22 140032](https://github.com/user-attachments/assets/2324df5e-c8e8-46c8-a97a-951e3350d3a8)
 
 
 ## FINDINGS
 
-![Screenshot 2025-04-22 135552](https://github.com/user-attachments/assets/693071b8-61cf-4c67-be28-1792623cc57f)
+![Screenshot 2025-04-22 135552](https://github.com/user-attachments/assets/66fc42f9-a72f-47f6-a0bf-19ee70292848)
 
 
 - Females, Senior citizens & customers without partners and dependents are more likely to churn.
@@ -88,15 +74,16 @@ Covers customer data and the dataset includes details like Customer ID, gender, 
 
 
 ## Recommendations
-- Offer incentives like discounted rates or loyalty rewards to transition customers from month-to-month plans to annual contracts.
 
-- Provide incentives for customers to switch from electronic checks to more stable payment options like auto-debit bank transfers.
+- Incentives like discounted rates or loyalty rewards to transition customers should be offered from month-to-month plans to annual contracts.
 
-- Implement personalized onboarding programs,  early engagement campaigns, and customer support touchpoints within the first 12 months.
+- Incentives for customers to switch from electronic checks to more stable payment options like auto-debit bank transfers should also be provided.
 
-- Offer tiered pricing plans or bundled discounts to prevent churn among high-paying customers.
+- Personalized onboarding programs,  early engagement campaigns, and customer support touchpoints  should be implemented within the first 12 months.
 
-- Use personalized marketing & loyalty programs to retain senior citizens, independent customers, and those with high churn risk.
+- Tiered pricing plans or bundled discounts should be offered to prevent churn among high-paying customers.
+
+- Personalized marketing & loyalty programs should also be explored to retain senior citizens, independent customers, and those with high churn risk.
 
 
 ![2025](https://github.com/user-attachments/assets/52c80e5a-7006-4267-9e77-faa7491d33d3)
